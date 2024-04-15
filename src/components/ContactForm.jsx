@@ -1,4 +1,13 @@
+import confetti from "canvas-confetti";
+
 const ContactForm = () => {
+  const handleClick = () => {
+    confetti({
+      particleCount: 100,
+      spread: 160,
+    });
+  };
+
   return (
     <div id="CONTACTO" className="py-10">
       <div className="max-w-md w-full mx-auto p-6 bg-contact bg-cover rounded-lg shadow-md">
@@ -49,6 +58,7 @@ const ContactForm = () => {
           </div>
           <div>
             <button
+              onClick={handleClick}
               className="bg-personal-gray border-[2px] border-personal-gray text-gray-500 font-semibold px-4 py-2 rounded-lg hover:bg-transparent hover:text-neon-cian hover:border-neon-cian focus:ring focus:ring-neon-cian"
               type="submit"
             >

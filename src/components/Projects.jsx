@@ -2,6 +2,8 @@ import tenisLab from "../assets/img/tenislab.png";
 import biciTienda from "../assets/img/bicitienda.png";
 import petricorAmor from "../assets/img/petricoramor.png";
 import barricas from "../assets/img/barricas.png";
+import pasaporteEnMano from "../assets/img/pasaporte-en-mano.png";
+import lifeArtCo from "../assets/img/life-art-co.png";
 import projectImg from "../assets/img/project-management-planning-development-message-box-notification-graphic.jpg";
 
 const Projects = () => {
@@ -48,35 +50,24 @@ const Projects = () => {
     },
     {
       id: 5,
+      name: "Pasaporte en Mano",
+      stack: "HTML, CSS, Bootstrap, Python, Django",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, autem molestiae. Facilis quidem temporibus fugit aliquid corrupti, vero, debitis laborum minus repellat, est reiciendis soluta laudantium cum! Aut, quaerat dignissimos.",
-      projectImgSrc: projectImg,
-      gitHubLink: "https://github.com/",
-      deployLink: "https://github.com/",
+        "SPA de una blog con temática de viajes realizada en Python con Django. Cuenta con inicio de sesión, registros de nuevos usuarios, CRUD de posteos. Tecnologías utilizadas: HTML, CSS, Bootstrap, Python, Django.",
+      projectImgSrc: pasaporteEnMano,
+      gitHubLink: "https://github.com/JuampiRibero/python-coderhouse",
+      deployLink:
+        "https://drive.google.com/file/d/1TiGGiCe3nqsZsI6yj3Mb5LqXcNjF-S5s/view",
     },
     {
       id: 6,
+      name: "Life Art Co",
+      stack: "HTML, CSS, SASS, Bootstrap, React",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, autem molestiae. Facilis quidem temporibus fugit aliquid corrupti, vero, debitis laborum minus repellat, est reiciendis soluta laudantium cum! Aut, quaerat dignissimos.",
-      projectImgSrc: projectImg,
-      gitHubLink: "https://github.com/",
-      deployLink: "https://github.com/",
-    },
-    {
-      id: 7,
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, autem molestiae. Facilis quidem temporibus fugit aliquid corrupti, vero, debitis laborum minus repellat, est reiciendis soluta laudantium cum! Aut, quaerat dignissimos.",
-      projectImgSrc: projectImg,
-      gitHubLink: "https://github.com/",
-      deployLink: "https://github.com/",
-    },
-    {
-      id: 8,
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, autem molestiae. Facilis quidem temporibus fugit aliquid corrupti, vero, debitis laborum minus repellat, est reiciendis soluta laudantium cum! Aut, quaerat dignissimos.",
-      projectImgSrc: projectImg,
-      gitHubLink: "https://github.com/",
-      deployLink: "https://github.com/",
+        "SPA de una empresa que brinda servicios de coaching y consultoría. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, SASS, Bootstrap, React.",
+      projectImgSrc: lifeArtCo,
+      gitHubLink: "https://github.com/JuampiRibero/lifeartco",
+      deployLink: "https://lifeartco.netlify.app/",
     },
   ];
 
@@ -99,17 +90,17 @@ const Projects = () => {
             </h1>
             <h2 className="text-personal-gray text-center">{item.stack}</h2>
             <span className="flex flex-col p-4 absolute backdrop-blur hover:backdrop-blur-[20px] inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white">{item.description}</p>
-              <div className="flex">
+              <p className="text-personal-gray text-pretty">{item.description}</p>
+              <div className="flex my-8">
                 <a
-                  className="text-personal-gray"
+                  className="text-personal-gray hover:underline hover:underline-offset-4 hover:border-neon-cian hover:text-neon-cian"
                   href={item.gitHubLink}
                   target="_blank"
                 >
                   GitHub
                 </a>
                 <a
-                  className="text-personal-gray ml-4"
+                  className="text-personal-gray ml-4 hover:underline hover:underline-offset-4 hover:border-neon-cian hover:text-neon-cian"
                   href={item.deployLink}
                   target="_blank"
                 >

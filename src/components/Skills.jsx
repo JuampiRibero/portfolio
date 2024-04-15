@@ -3,11 +3,6 @@ import { FaBootstrap } from "react-icons/fa6";
 import { BiLogoTailwindCss, BiLogoJquery, BiLogoMongodb, BiLogoDjango  } from "react-icons/bi";
 import { SiExpress, SiGit } from "react-icons/si";
 
-
-
-
-
-
 const Skills = () => {
   return (
     <div className="py-10 px-12 text-gray-500 bg-black">

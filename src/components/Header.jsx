@@ -59,7 +59,12 @@ const Header = () => {
             className="text-white text-[32px]"
           />
         )}
-        {toggle ? <MenuOverlay handleMenu={() => setToggle(!toggle)} menuList={menuList} /> : null}
+        {toggle ? (
+          <MenuOverlay
+            handleMenu={() => setToggle(!toggle)}
+            menuList={menuList}
+          />
+        ) : null}
       </div>
     </div>
   );
