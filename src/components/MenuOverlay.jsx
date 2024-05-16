@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const MenuOverlay = ({ menuList, handleMenu }) => {
   return (
-    <div className="absolute text-center left-0 min-h-full backdrop-blur-lg w-full mt-5">
+    <div className="absolute text-center left-0 min-h-full backdrop-blur-lg w-full mt-5 z-10">
       {menuList.map((item) => (
         <Link
           key={item.id}

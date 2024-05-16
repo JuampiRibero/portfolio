@@ -1,3 +1,153 @@
 #root {
   margin: 0 auto;
 }
+
+.title {
+  width: 265px;
+}
+
+.title span {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(107, 114, 128, 1);
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 20%;
+  width: 100%;
+  height: 3px;
+  background-color: #15e6cc;
+  transition: left 0.3s ease-out;
+}
+.title:hover::after {
+  left: 0;
+}
+
+.title--width185 {
+  width: 185px;
+}
+
+.title--width295 {
+  width: 295px;
+}
+
+/* Webkit */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #15e6cc;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #e7e7e7;
+  background-clip: content-box;
+  border-radius: 16px;
+  border: solid 6px transparent;
+}
+
+::-webkit-scrollbar-track-piece:decrement {
+  background-color: #15e6cc;
+  background-clip: content-box;
+  border: solid 6px transparent;
+}
+
+::-webkit-scrollbar-button:vertical:start {
+  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-up.png) no-repeat
+    center center;
+  background-size: contain;
+}
+
+::-webkit-scrollbar-button:vertical:end {
+  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-down.png) no-repeat
+    center center;
+  background-size: contain;
+}
+
+::-webkit-scrollbar-button:horizontal:start {
+  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-left.png) no-repeat
+    center center;
+  background-size: contain;
+}
+
+::-webkit-scrollbar-button:horizontal:end {
+  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-right.png) no-repeat
+    center center;
+  background-size: contain;
+}
+
+::-webkit-scrollbar-corner {
+  background: black;
+}
+
+/* Animations */
+.developer-animation {
+  animation: developer-animation 20s linear infinite;
+}
+@keyframes developer-animation {
+  0% {
+    transform: rotate(0deg) translateX(10px);
+  }
+  25% {
+    transform: rotate(10deg) translateX(10px);
+  }
+  50% {
+    transform: rotate(0deg) translateX(10px);
+  }
+  75% {
+    transform: rotate(-10deg) translateX(10px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(10px);
+  }
+}
+
+.rotating-text-wrapper p {
+  opacity: 0;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+p:first-child {
+  animation-name: rotating-text-1;
+}
+
+@keyframes rotating-text-1 {
+  0% {
+    transform: translateY(100%);
+  }
+  49% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+p:last-child {
+  animation-name: rotating-text-2;
+}
+
+@keyframes rotating-text-2 {
+  49% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  99% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}

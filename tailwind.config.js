@@ -7,9 +7,9 @@ export default {
       backgroundImage: {
         app: "url('/src/assets/img/app-bg.png')",
         home: "url('/src/assets/img/home-background.png')",
-        contact: "url('/src/assets/img/contact-form-bg.png')"
+        contact: "url('/src/assets/img/contact-form-bg.png')",
       },
-      
+
       colors: {
         "personal-gray": "#E7E7E7",
         "neon-green": "#2EF8A0",
@@ -17,6 +17,11 @@ export default {
         "neon-cian": "#15E6CC",
         "neon-red": "#FF5B5B",
       },
+    },
+    fontFamily: {
+      "gothic": ["Gothic A1", "sans-serif"],
+      "roboto": ["Roboto", "sans-serif"],
+      "bebas-neue": ["Bebas Neue", "sans-serif"],
     },
   },
   plugins: [require("tailwind-gradient-mask-image")],

@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="py-4 bg-black text-personal-gray text-center">
+    <div className="py-4 bg-black/70 text-personal-gray text-center font-roboto tracking-widest">
       <div className="relative p-4 py-6 lg:py-8 md:flex md:justify-between px-12 bottom-2">
         <div className="mb-6 md:mb-0">
           <a className="flex md:text-start justify-center items-center" href="">
