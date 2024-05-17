@@ -151,3 +151,9 @@ p:last-child {
     opacity: 0;
   }
 }
+
+@media (max-width: 550px) {
+  .title::after {
+    content: none;
+  }
+}

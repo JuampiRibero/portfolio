@@ -17,6 +17,8 @@ const Projects = () => {
       description:
         "Mi primer sitio web para una tienda ficticia con temática de tenis y pádel. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, SASS, Bootstrap.",
       projectImgSrc: tenisLab,
+      alt: "Imagen mostrando el inicio del sitio web",
+      title: "Vista previa del sitio web",
       gitHubLink: "https://github.com/JuampiRibero/tenislab",
       deployLink: "https://juampiribero.github.io/tenislab/",
     },
@@ -27,6 +29,8 @@ const Projects = () => {
       description:
         "Mi primera página landing para una tienda ficticia con temática de bicicletas. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, Bootstrap, JavaScript, jQuery.",
       projectImgSrc: biciTienda,
+      alt: "Imagen mostrando el inicio de la página landing",
+      title: "Vista previa de la página landing",
       gitHubLink: "https://github.com/JuampiRibero/bicitienda",
       deployLink: "https://juampiribero.github.io/bicitienda/",
     },
@@ -37,6 +41,8 @@ const Projects = () => {
       description:
         "Sitio web para una tienda con temática holística. Fue mi primer proyecto independiente, trabajando en conjunto a una diseñadora UX/UI. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, Bootstrap, JavaScript.",
       projectImgSrc: petricorAmor,
+      alt: "Imagen mostrando el inicio del sitio web",
+      title: "Vista previa del sitio web",
       gitHubLink: "https://github.com/JuampiRibero/petricoramor",
       deployLink: "https://juampiribero.github.io/petricoramor/",
     },
@@ -47,6 +53,8 @@ const Projects = () => {
       description:
         "SPA para una tienda ficticia con temática de vinos. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, Bootstrap, React, Firebase.",
       projectImgSrc: barricas,
+      alt: "Imagen mostrando el inicio de la SPA",
+      title: "Vista previa del sitio web",
       gitHubLink: "https://github.com/JuampiRibero/barricas",
       deployLink: "https://juampiribero.github.io/barricas/",
     },
@@ -57,6 +65,8 @@ const Projects = () => {
       description:
         "SPA de blog ficticio con temática de viajes realizada en Python con Django. Cuenta con inicio de sesión, registros de nuevos usuarios, CRUD de posteos. Tecnologías utilizadas: HTML, CSS, Bootstrap, Python, Django.",
       projectImgSrc: pasaporteEnMano,
+      alt: "Imagen mostrando el inicio de la SPA",
+      title: "Vista previa de la SPA",
       gitHubLink: "https://github.com/JuampiRibero/python-coderhouse",
       deployLink:
         "https://drive.google.com/file/d/1TiGGiCe3nqsZsI6yj3Mb5LqXcNjF-S5s/view",
@@ -68,6 +78,8 @@ const Projects = () => {
       description:
         "SPA para una empresa que brinda servicios de coaching y consultoría. Este fue mi segundo proyecto independiente, trabajando en conjunto a una desarrolladora frontend. Tiene un diseño responsivo, siguiendo la metodología mobile first. Tecnologías utilizadas: HTML, CSS, SASS, Bootstrap, React.",
       projectImgSrc: lifeArtCo,
+      alt: "Imagen mostrando el inicio de la SPA",
+      title: "Vista previa de la SPA",
       gitHubLink: "https://github.com/JuampiRibero/lifeartco",
       deployLink: "https://lifeartco.netlify.app/",
     },
@@ -78,6 +90,8 @@ const Projects = () => {
       description:
         "Aplicación del juego Tres en Raya, haciendo uso de los hooks useState y useEffect. Tecnologías utilizadas: HTML, CSS, JavaScript, React, Vite.",
       projectImgSrc: tresEnRaya,
+      alt: "Imagen mostrando la aplicación",
+      title: "Vista previa de la aplicación",
       gitHubLink: "https://github.com/JuampiRibero/tic-tac-toe",
       deployLink: "https://tresenrayaneon.netlify.app/",
     },
@@ -88,6 +102,8 @@ const Projects = () => {
       description:
         "Aplicación para buscar películas utilizando la API de OMDb, haciendo uso de los hooks useState, useEffect, useMemo, useRef y useCallback. Tecnologías utilizadas: HTML, CSS, JavaScript, React, Vite",
       projectImgSrc: buscadorDePeliculas,
+      alt: "Imagen mostrando la aplicación",
+      title: "Vista previa de la aplicación",
       gitHubLink: "https://github.com/JuampiRibero/buscador-de-peliculas",
       deployLink: "https://appbuscadorpeliculas.netlify.app/",
     },
@@ -98,6 +114,8 @@ const Projects = () => {
       description:
         "SPA para una profesional que brinda servicios de cuidados de la salud. Este es un proyecto independiente, en el cual me encuentro actualemente trabajando. Tecnologías utilizadas: HTML, CSS, Bootstrap, JavaScript, React, Vite.",
       projectImgSrc: comingSoon,
+      alt: "Imagen mostrando la leyenda de coming soon",
+      title: "Imagen de coming soon",
       gitHubLink: "https://github.com/JuampiRibero/mem-web-site",
       deployLink: "",
     },
@@ -106,7 +124,7 @@ const Projects = () => {
   return (
     <div id="PORTFOLIO" className="flex items-center flex-col px-12 py-10">
       <h2
-        className="relative text-7xl text-bold mb-10 text-center text-gray-500 font-bebas-neue tracking-widest title title--width295"
+        className="relative sm:text-7xl text-5xl text-bold mb-10 text-center text-gray-500 font-bebas-neue tracking-widest title title--width295"
         data-aos="fade-right"
       >
         PORTFOLIO
@@ -121,8 +139,8 @@ const Projects = () => {
             <img
               className="object-cover rounded-xl"
               src={item.projectImgSrc}
-              alt=""
-              title=""
+              alt={item.alt}
+              title={item.title}
             />
             <h1 className="text-2xl text-center text-personal-gray py-6">
               {item.name}

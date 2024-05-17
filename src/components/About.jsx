@@ -7,17 +7,17 @@ const About = () => {
   };
 
   return (
-    <div id="SOBRE MI" className="py-10 md:px-12 px-4 text-gray-500">
+    <div id="SOBRE MI" className="py-10 md:px-12 px-10 text-gray-500">
       <div className="flex justify-center object-cover">
         <h2
-          className="relative text-7xl text-bold mb-10 text-center font-bebas-neue tracking-widest title"
+          className="relative sm:text-7xl text-5xl text-bold mb-10 text-center font-bebas-neue tracking-widest title"
           data-aos="fade-right"
         >
           <span>SOBRE</span> MI
         </h2>
       </div>
       <div
-        className="mx-auto max-w-2xl rounded-3xl lg:mx-0 lg:flex lg:max-w-none shadow-2xl shadow-gray-500"
+        className="mx-auto max-w-2xl rounded-3xl lg:mx-0 lg:flex lg:max-w-none shadow-2xl shadow-gray-500 items-center"
         data-aos="fade-up"
       >
         <div
@@ -26,7 +26,11 @@ const About = () => {
         >
           <div className="rounded-3xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-8">
             <div className="mx-auto">
-              <img src={imgDeveloper} alt="" title="" />
+              <img
+                src={imgDeveloper}
+                alt="Imagen sonriendo de Juan Pablo Ribero Mazzoni"
+                title="Imagen de Juan Pablo Ribero Mazzoni"
+              />
             </div>
           </div>
         </div>
@@ -57,7 +61,7 @@ const About = () => {
           <div className="flex justify-center mt-10">
             <button
               type="button"
-              className="bg-gray-500 border-[2px] border-gray-500 text-white font-semibold py-2 rounded-lg hover:bg-transparent hover:text-gray-500 hover:border-gray-500 px-16 shadow-lg shadow-gray-500"
+              className="bg-gray-500 border-2 border-gray-500 text-white font-semibold py-2 rounded-lg hover:bg-transparent hover:text-gray-500 hover:border-gray-500 px-16 shadow-lg shadow-gray-500 animate-bounce"
               data-aos="zoom-out-up"
             >
               <a href={getCVFile()} download>

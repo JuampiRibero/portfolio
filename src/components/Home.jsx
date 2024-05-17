@@ -4,22 +4,21 @@ import Header from "./Header";
 
 const Home = () => {
   return (
-    <div className="h-svh mb-10 bg-home bg-cover gradient-mask-b-80 font-roboto tracking-widest">
+    <div id="HOME" className="h-svh mb-10 bg-home bg-cover sm:gradient-mask-b-80 gradient-mask-none font-roboto tracking-widest">
       <Header />
-      <div
-        id="HOME"
-        className="grid grid-cols-1 md:grid-cols-2 items-center px-12 py-10 "
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center px-12 py-10">
         <div>
-          <p className="text-white text-2xl uppercase">
+          <p className="text-white sm:text-2xl text-xl uppercase">
             ¡Hola! Bienvenidos a mi sitio web
           </p>
-          <p className="text-white text-5xl font-bold py-3">Soy Juan Pablo</p>
+          <p className="text-white sm:text-5xl text-3xl font-bold py-3">
+            Soy Juan Pablo
+          </p>
           <div className="rotating-text-wrapper">
-            <p className="text-gray-500 text-5xl font-bold underline underline-offset-8 decoration-neon-cian py-1">
+            <p className="text-gray-500 sm:text-5xl text-3xl font-bold underline underline-offset-8 decoration-neon-cian py-1">
               Desarrollador Frontend
             </p>
-            <p className="text-gray-500 text-5xl font-bold underline underline-offset-8 decoration-neon-cian py-1">
+            <p className="text-gray-500 sm:text-5xl text-3xl font-bold underline underline-offset-8 decoration-neon-cian py-1">
               e Ingeniero Civil
             </p>
           </div>
@@ -30,7 +29,7 @@ const Home = () => {
                 to="PORTFOLIO"
                 smooth={true}
                 spy={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 <span className="uppercase relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
@@ -44,7 +43,7 @@ const Home = () => {
                 to="CONTACTO"
                 smooth={true}
                 spy={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 <span className="uppercase relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
@@ -52,20 +51,14 @@ const Home = () => {
                 </span>
               </Link>
             </button>
-            {/* <button className="text-white text-[12px] px-3 pb-2 py-2 bg-red-500 rounded-full border-[2px] hover:border-white">
-              SEE PORTFOLIO
-            </button>
-            <button className="text-white text-[12px] px-3 pb-2 py-2 bg-red-500 rounded-full border-[2px] hover:border-white">
-              CONTACT ME
-            </button> */}
           </div>
         </div>
         <div className="flex justify-center">
           <div>
             <img
               src={imgDeveloper}
-              alt=""
-              title=""
+              alt="Caricatura de un desarrollador trabajando sonriente y concentrado con un portátil"
+              title="Caricatura de un desarrollador trabajando con un portátil"
               className="h-full w-[500px] object-cover developer-animation"
             />
           </div>

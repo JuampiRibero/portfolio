@@ -12,7 +12,7 @@ const MenuOverlay = ({ menuList, handleMenu }) => {
           spy={true}
           offset={50}
           duration={500}
-          className="flex flex-col text-white text-[24px] font-normal my-6 justify-center hover:scale-110 transition-all ease-in-out duration-300 cursor-pointer"
+          className="flex flex-col text-white text-xl font-normal my-6 justify-center hover:scale-110 transition-all ease-in-out duration-300 cursor-pointer"
         >
           {item.title}
         </Link>

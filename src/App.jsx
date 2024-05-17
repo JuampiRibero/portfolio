@@ -15,7 +15,7 @@ const App = () => {
       <Skills />
       <Projects />
       <ContactForm />
-      <ScrollToTop className="flex justify-center items-center !important" smooth top={500} />
+      <ScrollToTop className="flex justify-center items-center opacity-50 !important" smooth top={500} />
     </div>
   );
 };
