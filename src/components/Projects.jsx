@@ -112,7 +112,7 @@ const Projects = () => {
       name: "Lic. María Eugenia Mazzoni",
       stack: "HTML, CSS, Bootstrap, JavaScript, React, Vite",
       description:
-        "SPA para una profesional que brinda servicios de cuidados de la salud. Este es un proyecto independiente, en el cual me encuentro actualemente trabajando. Tecnologías utilizadas: HTML, CSS, Bootstrap, JavaScript, React, Vite.",
+        "SPA para una profesional que brinda servicios de cuidados de la salud. Este es un proyecto independiente, en el cual me encuentro actualmente trabajando. Tecnologías utilizadas: HTML, CSS, Bootstrap, JavaScript, React, Vite.",
       projectImgSrc: comingSoon,
       alt: "Imagen mostrando la leyenda de coming soon",
       title: "Imagen de coming soon",
