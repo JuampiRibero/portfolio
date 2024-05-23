@@ -61,25 +61,25 @@
 }
 
 ::-webkit-scrollbar-button:vertical:start {
-  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-up.png) no-repeat
+  background: rgba(0, 0, 0, 1) url(../../public/images/arrow-up.png) no-repeat
     center center;
   background-size: contain;
 }
 
 ::-webkit-scrollbar-button:vertical:end {
-  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-down.png) no-repeat
+  background: rgba(0, 0, 0, 1) url(../../public/images/arrow-down.png) no-repeat
     center center;
   background-size: contain;
 }
 
 ::-webkit-scrollbar-button:horizontal:start {
-  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-left.png) no-repeat
+  background: rgba(0, 0, 0, 1) url(../../public/images/arrow-left.png) no-repeat
     center center;
   background-size: contain;
 }
 
 ::-webkit-scrollbar-button:horizontal:end {
-  background: rgba(0, 0, 0, 1) url(../src/assets/img/arrow-right.png) no-repeat
+  background: rgba(0, 0, 0, 1) url(../../public/images/arrow-right.png) no-repeat
     center center;
   background-size: contain;
 }

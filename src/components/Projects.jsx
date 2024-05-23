@@ -1,12 +1,12 @@
-import tenisLab from "../assets/img/tenislab.png";
-import biciTienda from "../assets/img/bicitienda.png";
-import petricorAmor from "../assets/img/petricoramor.png";
-import barricas from "../assets/img/barricas.png";
-import pasaporteEnMano from "../assets/img/pasaporte-en-mano.png";
-import lifeArtCo from "../assets/img/life-art-co.png";
-import tresEnRaya from "../assets/img/tres-en-raya.png";
-import buscadorDePeliculas from "../assets/img/buscador-de-peliculas.png";
-import comingSoon from "../assets/img/coming-soon.png";
+import tenisLab from "../../public/images/tenislab.png";
+import biciTienda from "../../public/images/bicitienda.png";
+import petricorAmor from "../../public/images/petricoramor.png";
+import barricas from "../../public/images/barricas.png";
+import pasaporteEnMano from "../../public/images/pasaporte-en-mano.png";
+import lifeArtCo from "../../public/images/life-art-co.png";
+import tresEnRaya from "../../public/images/tres-en-raya.png";
+import buscadorDePeliculas from "../../public/images/buscador-de-peliculas.png";
+import comingSoon from "../../public/images/coming-soon.png";
 
 const Projects = () => {
   const projects = [

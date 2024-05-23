@@ -1,5 +1,5 @@
-import imgDeveloper from "../assets/img/developer.png";
-import CurriculumVitaeEs from "../assets/cv/cv-es.pdf";
+import imgDeveloper from "../../public/images/developer.png";
+import CurriculumVitaeEs from "../../public/cv/cv-es.pdf";
 
 const About = () => {
   const getCVFile = () => {
@@ -48,8 +48,8 @@ const About = () => {
             desarrollador frontend.
           </p>
           <p className="mt-6 text-justify leading-7" data-aos="zoom-in-left">
-            Cuento con experiencia en el manejo de HTML, CSS, JavaScript, además
-            del manejo de frameworks y liberías, especialmente React JS. He
+            Cuento con experiencia en el manejo de HTML5, CSS3, JavaScript, además
+            del manejo de bibliotecas como React.js y frameworks como Next.js. He
             trabajado en proyectos de pequeña escala, implementando soluciones
             de código eficientes, trabajado con arquitecturas de software
             escalables y fácilmente mantenibles.
