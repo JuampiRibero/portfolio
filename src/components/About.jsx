@@ -1,5 +1,5 @@
-import imgDeveloper from "../../public/images/developer.png";
-import CurriculumVitaeEs from "../../public/cv/cv-es.pdf";
+import imgDeveloper from "../../src/assets/images/developer.png";
+import CurriculumVitaeEs from "../../src/assets/cv/cv-es.pdf";
 
 const About = () => {
   const getCVFile = () => {

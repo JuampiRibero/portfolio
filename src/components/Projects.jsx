@@ -1,12 +1,12 @@
-import tenisLab from "../../public/images/tenislab.png";
-import biciTienda from "../../public/images/bicitienda.png";
-import petricorAmor from "../../public/images/petricoramor.png";
-import barricas from "../../public/images/barricas.png";
-import pasaporteEnMano from "../../public/images/pasaporte-en-mano.png";
-import lifeArtCo from "../../public/images/life-art-co.png";
-import tresEnRaya from "../../public/images/tres-en-raya.png";
-import buscadorDePeliculas from "../../public/images/buscador-de-peliculas.png";
-import comingSoon from "../../public/images/coming-soon.png";
+import tenisLab from "../../src/assets/images/tenislab.png";
+import biciTienda from "../../src/assets/images/bicitienda.png";
+import petricorAmor from "../../src/assets/images/petricoramor.png";
+import barricas from "../../src/assets/images/barricas.png";
+import pasaporteEnMano from "../../src/assets/images/pasaporte-en-mano.png";
+import lifeArtCo from "../../src/assets/images/life-art-co.png";
+import tresEnRaya from "../../src/assets/images/tres-en-raya.png";
+import buscadorDePeliculas from "../../src/assets/images/buscador-de-peliculas.png";
+import comingSoon from "../../src/assets/images/coming-soon.png";
 
 const Projects = () => {
   const projects = [

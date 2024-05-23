@@ -5,9 +5,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        app: "url('/public/images/app-bg.png')",
-        home: "url('/public/images/home-background.png')",
-        contact: "url('/public/images/contact-form-bg.png')",
+        app: "url('/src/assets/images/app-bg.png')",
+        home: "url('/src/assets/images/home-background.png')",
+        contact: "url('/src/assets/images/contact-form-bg.png')",
       },
 
       colors: {

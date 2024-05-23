@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import imgDeveloper from "../../public/images/male-developer.png";
+import imgDeveloper from "../../src/assets/images/male-developer.png";
 import Header from "./Header";
 
 const Home = () => {
