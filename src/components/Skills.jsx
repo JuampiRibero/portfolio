@@ -15,7 +15,7 @@ import {
   BiLogoJquery,
   BiLogoMongodb,
 } from "react-icons/bi";
-import { SiExpress, SiGit } from "react-icons/si";
+import { SiExpress, SiGit, SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -56,27 +56,27 @@ const Skills = () => {
         </div>
         <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
           <IoLogoReact className="text-[40px] my-2 text-center" />
-          <h2 className="text-[17px] font-bold my-2">REACT</h2>
+          <h2 className="text-[17px] font-bold my-2">REACT.JS</h2>
         </div>
         <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
+          <SiNextdotjs className="text-[40px] my-2 text-center" />
+          <h2 className="text-[17px] font-bold my-2">NEXT.JS</h2>
+        </div>
+        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-left">
           <IoLogoFirebase className="text-[40px] my-2 text-center" />
           <h2 className="text-[17px] font-bold my-2">FIREBASE</h2>
         </div>
-        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-left">
+        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-right">
           <BiLogoMongodb className="text-[40px] my-2 text-center" />
           <h2 className="text-[17px] font-bold my-2">MONGODB</h2>
         </div>
-        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-right">
+        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
           <SiExpress className="text-[40px] my-2 text-center" />
           <h2 className="text-[17px] font-bold my-2">EXPRESS</h2>
         </div>
         <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
           <IoLogoNodejs className="text-[40px] my-2 text-center" />
           <h2 className="text-[17px] font-bold my-2">NODE</h2>
-        </div>
-        <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
-          <IoLogoWordpress className="text-[40px] my-2 text-center" />
-          <h2 className="text-[17px] font-bold my-2">WORDPRESS</h2>
         </div>
         <div className="bg-personal-gray border-2 border-personal-gray p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-2 hover:border-neon-cian hover:bg-transparent hover:text-neon-cian duration-500 ease-in-out hover:rotate-3" data-aos="zoom-in-up">
           <SiGit className="text-[40px] my-2 text-center" />
