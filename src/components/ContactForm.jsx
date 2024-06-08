@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LanguageContext } from "../context/language";
 import confetti from "canvas-confetti";
+import "react-toastify/dist/ReactToastify.css";
 import Footer from "./Footer";
 
 const ContactForm = () => {
@@ -14,13 +15,18 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="CONTACTO" className="pt-10 bg-contact sm:bg-cover bg-contain">
+    <div
+      id={isEnglish ? "CONTACT" : "CONTACTO"}
+      className="pt-10 bg-contact sm:bg-cover bg-contain"
+    >
       <div className="sm:max-w-md sm:w-full sm:mx-auto mx-4 mb-10 p-6 bg-black/50 border-2 border-white rounded-lg shadow-lg shadow-neon-cian">
         <h2 className="sm:text-7xl text-5xl text-bold mb-10 text-center text-personal-gray font-bebas-neue tracking-widest">
           {isEnglish ? "CONTACT ME" : "CONTACTAME"}
         </h2>
         <h2 className="text-personal-gray text-center mb-6 font-roboto tracking-widest">
-          {isEnglish ? "I am ready to start a new project and work with you to turn your ideas into reality." : "Estoy preparado para comenzar un nuevo proyecto y trabajar con vos para convertir tus ideas en realidad."}
+          {isEnglish
+            ? "I am ready to start a new project and work with you to turn your ideas into reality."
+            : "Estoy preparado para comenzar un nuevo proyecto y trabajar con vos para convertir tus ideas en realidad."}
         </h2>
         <form
           className="font-roboto tracking-widest"
@@ -53,12 +59,16 @@ const ContactForm = () => {
           </div>
           <div className="mb-4">
             <label className="block text-personal-gray text-1xl font-semibold mb-2">
-            {isEnglish ? "Message" : "Mensaje"}
+              {isEnglish ? "Message" : "Mensaje"}
             </label>
             <textarea
               className="block w-full px-3 py-2 border-2 border-personal-gray rounded-lg bg-transparent focus:outline-none focus:border-neon-cian focus:ring-neon-cian focus:ring-1 text-personal-gray placeholder-gray-300"
               rows={4}
-              placeholder={isEnglish ? "Write your message here..." : "Escribe tu mensaje aquí..."}
+              placeholder={
+                isEnglish
+                  ? "Write your message here..."
+                  : "Escribe tu mensaje aquí..."
+              }
               type="text"
               name="message"
               required

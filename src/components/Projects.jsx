@@ -140,7 +140,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="PORTFOLIO" className="flex items-center flex-col px-12 py-10">
+    <div id={isEnglish ? "PORTFOLIO" : "PORTAFOLIO"} className="flex items-center flex-col px-12 py-10">
       <h2
         className="relative sm:text-7xl text-5xl text-bold mb-10 text-center text-gray-500 font-bebas-neue tracking-widest title title--width295"
         data-aos="fade-right"

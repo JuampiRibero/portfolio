@@ -15,7 +15,7 @@ const About = () => {
   };
 
   return (
-    <div id="SOBRE MI" className="py-10 md:px-12 px-10 text-gray-500">
+    <div id={isEnglish ? "ABOUT ME" : "SOBRE MI"} className="py-10 md:px-12 px-10 text-gray-500">
       <div className="flex justify-center object-cover">
         <h2
           className="relative sm:text-7xl text-5xl text-bold mb-10 text-center font-bebas-neue tracking-widest title"
