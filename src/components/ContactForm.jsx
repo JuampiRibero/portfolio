@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "../context/language";
 import confetti from "canvas-confetti";
-import "react-toastify/dist/ReactToastify.css";
 import Footer from "./Footer";
 
 const ContactForm = () => {
