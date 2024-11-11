@@ -15,7 +15,10 @@ const About = () => {
   };
 
   return (
-    <div id={isEnglish ? "ABOUT ME" : "SOBRE MI"} className="py-10 md:px-12 px-10 text-gray-500">
+    <div
+      id={isEnglish ? "ABOUT ME" : "SOBRE MI"}
+      className="py-10 md:px-12 px-10 text-gray-500"
+    >
       <div className="flex justify-center object-cover">
         <h2
           className="relative sm:text-7xl text-5xl text-bold mb-10 text-center font-bebas-neue tracking-widest title"
@@ -37,24 +40,35 @@ const About = () => {
             <div className="mx-auto">
               <img
                 src={imgDeveloper}
-                alt={isEnglish ? "Smiling image of Juan Pablo Ribero Mazzoni" : "Imagen sonriendo de Juan Pablo Ribero Mazzoni"}
-                title={isEnglish ? "Image of Juan Pablo Ribero Mazzoni" : "Imagen de Juan Pablo Ribero Mazzoni"}
+                alt={
+                  isEnglish
+                    ? "Smiling image of Juan Pablo Ribero Mazzoni"
+                    : "Imagen sonriendo de Juan Pablo Ribero Mazzoni"
+                }
+                title={
+                  isEnglish
+                    ? "Image of Juan Pablo Ribero Mazzoni"
+                    : "Imagen de Juan Pablo Ribero Mazzoni"
+                }
               />
             </div>
           </div>
         </div>
         <div className="p-8 sm:p-10 lg:flex-auto font-roboto tracking-wider">
           <p className="mt-6 text-justify leading-7" data-aos="zoom-in-left">
-            {isEnglish ? "I'm Juan Pablo Ribero Mazzoni, a guy from Córdoba, Argentina. I am a civil engineer and have worked in the construction sector, specifically in project inspection and management, for over 5 years." : "Soy Juan Pablo Ribero Mazzoni, un chico de Córdoba, Argentina. Soy ingeniero civil, he trabajado en el sector de la construcción, específicamente en la inspección de obras y gestión de proyectos, por más de 5 años."}
+            {isEnglish
+              ? "I'm Juan Pablo Ribero Mazzoni, a guy from Córdoba, Argentina. I am a civil engineer and have worked in the construction sector, specifically in project inspection and management, for over 5 years."
+              : "Soy Juan Pablo Ribero Mazzoni, un chico de Córdoba, Argentina. Soy ingeniero civil, he trabajado en el sector de la construcción, específicamente en la inspección de obras y gestión de proyectos, por más de 5 años."}
           </p>
           <p className="mt-6 text-justify leading-7" data-aos="zoom-in-left">
-            {isEnglish ? "In 2021, I decided to make a 180° turn towards the field of information technology. Since then, I have been continuously training and have become a passionate frontend developer." : "En el año 2021 decidí dar un giro de 180° hacia el campo de la tecnología de la información, desde ese entonces me he estado formando de manera continua y me convertí en un apasionado desarrollador frontend."}
+            {isEnglish
+              ? "In 2021, I decided to make a 180° turn towards the field of information technology. Since then, I have been continuously training and have become a passionate frontend developer."
+              : "En el año 2021 decidí dar un giro de 180° hacia el campo de la tecnología de la información, desde ese entonces me he estado formando de manera continua y me convertí en un apasionado desarrollador frontend."}
           </p>
           <p className="mt-6 text-justify leading-7" data-aos="zoom-in-left">
-            {isEnglish ? "I have experience in handling HTML5, CSS3, and JavaScript, as well as working with libraries like React.js and frameworks like Next.js. I have worked on small-scale projects, implementing efficient code solutions, and working with scalable and easily maintainable software architectures." : "Cuento con experiencia en el manejo de HTML5, CSS3, JavaScript, además del manejo de bibliotecas como React.js y frameworks como Next.js. He trabajado en proyectos de pequeña escala, implementando soluciones de código eficientes, trabajado con arquitecturas de software escalables y fácilmente mantenibles."}
-          </p>
-          <p className="mt-6 text-justify leading-7" data-aos="zoom-in-left">
-            {isEnglish ? "I decided to move to Italy in 2023 to apply for Italian citizenship. Currently, I am living in Valencia, Spain." : "En el año 2023 decidí emigrar a Italia para tramitar la ciudadanía italiana, actualmente me encuentro viviendo en Valencia, España."}
+            {isEnglish
+              ? "I have experience in handling HTML5, CSS3, and JavaScript, as well as working with libraries like React.js and frameworks like Next.js. I have worked on small-scale projects, implementing efficient code solutions, and working with scalable and easily maintainable software architectures."
+              : "Cuento con experiencia en el manejo de HTML5, CSS3, JavaScript, además del manejo de bibliotecas como React.js y frameworks como Next.js. He trabajado en proyectos de pequeña escala, implementando soluciones de código eficientes, trabajado con arquitecturas de software escalables y fácilmente mantenibles."}
           </p>
           <div className="flex justify-center mt-10">
             <button
